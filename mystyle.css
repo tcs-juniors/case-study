@@ -4,6 +4,10 @@ body {
 #center{
     text-align: center;
 }
+#align {
+    left: 20%;
+    position: absolute;
+}
 #outer {
     position: relative;
     border: 1px solid black;
@@ -48,4 +52,27 @@ a{
     top: 560px;
     height: 200px;
     width: 100%;
+}
+#about_us {
+    position: absolute;
+    border: 1px solid hotpink;
+    height: 200px;
+    top: 0%;
+    width: 40%;
+}
+#services{
+    position: absolute;
+    border: 1px solid blue;
+    height: 200px;
+    top: 0%;
+    left: 40%;
+    width: 20%;
+}
+#contact_us {
+    position: absolute;
+    border: 1px solid orangered;
+    height: 200px;
+    top: 0%;
+    left: 60%;
+    width: 40%; 
 }
