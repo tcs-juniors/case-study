@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Customer Registration</title>
+        <link rel="stylesheet" href="/mystyle.css">
+    </head>
+    <body>
+        <div id="outer">
+            <div id="header">
+                <h1 style="left: 10%;position: absolute;">FedChoice Bank </h1>
+                <div id="nav_bar">
+                        <a href="#">Home</a>&ensp;&ensp;
+                        <a href="#">Customer Management<a>&ensp;&ensp;
+                        <a href="#">Account Management</a>&ensp;&ensp;
+                        <a href="#">Status Details</a>&ensp;&ensp;
+                        <a href="#">Account Operations</a>&ensp;&ensp;
+                        <a href="#">Logout</a>&ensp;&ensp;
+                </div>
+            </div>
+            <div id="main">
+                <div id="table">
+                <h2 id="center">Create Customer Screen</h2>
+                <form>
+                    <table>
+                        <tr>
+                            <td>Customer SSH Id&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</td>
+                            <td><input type="text" name="customer_ssh_id"></td>
+                        </tr>
+                        <tr>
+                            <td>Customer Name</td>
+                            <td><input type="text" name="customer_name"></td>
+                        </tr>
+                        <tr>
+                            <td>Age</td>
+                            <td><input type="number" name="age"></td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td><input type="text" name="address"></td>
+                        </tr>
+                        <tr>
+                            <td>State</td>
+                            <td><select name="state">
+                                <option>Select</option>
+                                <option value="Tamil Nadu">Tamil Nadu</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td>City</td>
+                            <td>
+                                <select name="city">
+                                    <option>Select</option>
+                                    <option value="Dharapuram">Dharapuram</option>
+                                    <option value="Tiruppur">Tiruppur</option>
+                                    <option value="Coimbatore">Coimbatore</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                        </td>
+                        </tr>
+                    </table>
+                </form>
+                </div>
+            </div>
+            <div id="footer">
+                <h1></h1>
+            </div>
+        </div>
+    </body>
+</html>
